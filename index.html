@@ -25,9 +25,11 @@
             ul {
                 list-style: none;
                 display: flex;
-                justify-content: space-between;
+                justify-content:space-evenly;
+                vertical-align: middle;
+
             }
-    
+
             /* Style for each list item container */
             li {
                 position: relative;
@@ -35,6 +37,7 @@
     
             /* Style for the images */
             img {
+                vertical-align: middle;
                 max-width: 200px;
                 height: auto;
                 display: block;
@@ -44,7 +47,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            background-color: rgba(0, 0, 0, 0.5); /* Change the background color and opacity as needed */
+            background-color: rgba(0, 0, 0, 0); /* Change the background color and opacity as needed */
             color: rgba(248, 245, 245, 100);
             padding: 0px;
             opacity: 0.5;
@@ -61,10 +64,46 @@
             opacity: 1;
             font-weight: bolder;
         }
+        nav{ 
+        background-color: #333;
+        padding: 10px 0;
+        }
+
+        /* Style for the navigation links */
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
     </style>
     </head>
     <body>
         <h1>Do you think you have what it takes to <strong>BANG SPOCK?</strong></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bangometer.html">Bang-O-Meter</a></li>
+                <li><a href="inaction.html">Spock In Action</a></li>
+                <li><a href="tips.html">Tips from the Crew</a></li>
+                <li><a href="captioncontest.html">Caption Contest</a></li>
+            </ul>
+        </nav>
           <P>Welcome to bangSpock.com, the ultimate destination for intergalactic love making! </P>
         <p>Because even Vulcans need a little bit of ass-fun.</P>
         <h2>Who wants to bang Spock first?</h2>
@@ -91,13 +130,13 @@
             <li>
                 <a href="tips.html">
                     <div class="overlay">Banging Tips from the Crew</div>
-                    <img src="path_to_image3.jpg" alt="tips">
+                    <img src="https://3.bp.blogspot.com/-BGYDEREmJaY/Wk0F8BPmYmI/AAAAAAAARbk/KRVyAO8-Mg8qEvca_r5ziQu2uiADiakxgCLcBGAs/s400/ds9.jpg" alt="tips">
                 </a>
             </li>
             <li>
-                <a href="captoncontest.html">
+                <a href="captioncontest.html">
                     <div class="overlay">Caption Contest</div>
-                    <img src="path_to_image3.jpg" alt="caption contest">
+                    <img src="https://64.media.tumblr.com/ac0d76f5c568ba026d95a73ccbb03228/tumblr_inline_ofzrt2e5q71sqmv2t_500.png" alt="caption contest">
                 </a>
             </li>
         </ul>
