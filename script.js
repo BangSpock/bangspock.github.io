@@ -73,5 +73,15 @@ function displayRandomContent() {
     }
 
     textIndex++;
+
+}
+    
+    
+function showDiv(divNumber) {
+  const divs = document.getElementsByClassName('boxborder');
+  for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = 'none';
+  }
+  document.getElementById('div' + divNumber).style.display = 'block';
 }
 
