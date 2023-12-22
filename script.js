@@ -25,10 +25,11 @@
         "https://i.pinimg.com/originals/9e/90/18/9e9018291d76abc2dea423afa76c45fc.gif",
         "https://i.pinimg.com/1200x/18/ea/da/18eadacdc9678f650960d92ffd3e53dd.jpg",
         "https://www.ravishly.com/sites/default/files/spock.png",
-        "https://www.startrek.com/sites/default/files/images/2019-07/2_nomad_goes_mad.jpg",
+        "https://y.yarn.co/45e07608-b032-4875-9eaf-76e8aded4165_text.gif",
+        "https://qph.cf2.quoracdn.net/main-qimg-c51958fccab5da308a7b915efbb10379"
     ];
     const specialText = "If you do not bang Spock your prostate will quietly disintegrate in less than 15 seconds. Get Going!";
-    const specialGif = "https://thumbs.gfycat.com/DefiantAnimatedGelding-size_restricted.gif";
+    const specialGif = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDZ3MHJzbjA5bjdpZzNzM3czNnllNzRpODdocXZxNzkzZDNzcHVnaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LVZzvTuDiAZRfgsAFd/giphy.gif";
 
 // Function to shuffle array items randomly
 function shuffleArray(array) {
